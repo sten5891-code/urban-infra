@@ -4,8 +4,8 @@ import type { MetadataRoute } from "next";
 // iOS Safari는 share_target을 지원하지 않으므로 iOS는 링크 붙여넣기만 쓴다.
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "진짜일까? — 인스타 게시물 사실 확인",
-    short_name: "진짜일까?",
+    name: "For real — 인스타 게시물 사실 확인",
+    short_name: "For real",
     start_url: "/",
     display: "standalone",
     background_color: "#121212",

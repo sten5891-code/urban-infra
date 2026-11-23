@@ -13,7 +13,7 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
   return (
     <main className="page">
       <header className="hero">
-        <h1 className="hero-title">진짜일까?</h1>
+        <h1 className="hero-title">For real</h1>
         <p className="hero-sub">인스타에서 본 게시물, 공유하기 전에 확인해 봐요.</p>
       </header>
       <Checker initialUrl={initialUrl} autoStart={initialUrl !== ""} />
